@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "description": "Node.js.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "gcloud app deploy",
+    "lint": "samples lint",
+    "pretest": "npm run lint",
+    "test": "samples test app"
+  },
+  "engines": {
+    "node": "8.x.x"
+  },
+  "author": "Google Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
