@@ -11,7 +11,7 @@
     "test": "samples test app"
   },
   "engines": {
-    "node": "8.x.x"
+    "node": "10.x.x"
   },
   "author": "Google Inc.",
   "license": "Apache-2.0",
